@@ -43,9 +43,20 @@ Make a lithium ion battery pack with 12 cells to make a BMS supply of 44.4V, 4.8
 ## Task 8 - Working with multiple sensors  
 Use the chasis from the first task to make a fully equipped RC control car. Use any 3 sensors of your choice to provide the respective data from the sensors. Use up all of the above task to have an application in this car.
 
+## Task 9 - EV Battery Heat Management Simulation 
 
+Create a simple simulation using MATLAB to model the heat generation and dissipation in an electric vehicle battery during charging and discharging cycles. This project can help understand the thermal behaviour of EV batteries. 
 
+   Resource Links:  
+   [Electric Vehicle Thermal Management
+   MATLAB & Simulink  (mathworks.com) ](https://www.mathworks.com/help/hydro/ug/sscfluids_ev_thermal_management.html)
+   
+   [https://youtu.be/dpuhgwdN0s8 
+](https://youtu.be/dpuhgwdN0s8)
 
+## Task 10 - Motor Control with STM32
 
+Control a DC Motor’s Speed using STM32 Microcontroller.
 
+Resource Links: https://www.engineersgarage.com/dc-motor-control-with-stm32-microcontroller/
 
