@@ -6,7 +6,6 @@ Design and simulate a 555 timer-based astable multivibrator using LTspice to obs
 
 **Outcome**
 - Understand SPICE-based circuit simulation and EDA workflows.
-
 - Generate schematic, layout, and simulation results.
 
 **Resources**
@@ -22,7 +21,6 @@ Build an obstacle-avoiding robot using an HC-SR04 ultrasonic sensor, Arduino, an
 
 **Outcome**
 - Vehicle can detect and avoid obstacles.
-
 - Performs point turn autonomously when close to an object.
 
 [Resources](https://projecthub.arduino.cc/) 
@@ -33,9 +31,7 @@ Build an obstacle-avoiding robot using an HC-SR04 ultrasonic sensor, Arduino, an
 Use the LM35 analog temperature sensor to monitor ambient or localized heat (e.g., near a soldering iron). When temperature exceeds a threshold, turn on an LED using a BJT as a switch. In parallel, use the DHT11 digital sensor to read and display temperature and humidity on a 16x2 LCD.
        
 **Outcome**
-
 - Understand analog and digital sensor interfacing.
-
 - Implement threshold-based switching and data display.
 
 **Resources**
