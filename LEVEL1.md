@@ -155,7 +155,7 @@ Covers low-level register-based programming, bypassing the HAL library. You’ll
 
 *Optional/Additional Resources*
 
-[STM32 EcoSystem (Development Environment) Setup – DeepBlue](https://deepbluembedded.com/stm32-ecosystem-development-environment-setup/) 
+[STM32 EcoSystem (Development Environment) Setup – DeepBlue](https://deepbluembedded.com/stm32-ecosystem-development-environment-setup/)
 Description:
 Covers how to set up STM32CubeMX and STM32CubeIDE, update firmware packages, and manage libraries for your board in a systematic way.
 
@@ -169,11 +169,12 @@ This article briefly discusses some STM32 MCUs and the ARM Cortex architecture g
 
 [MOOC - STM32CubeMX and STM32Cube HAL basics - YouTube](https://www.youtube.com/playlist?list=PLnMKNibPkDnGtuIl5v0CvC81Am7SKpj02)
 Description:
-Massive Open Online Course (MOOC) to help you understand peripheral configuration and C programming using HAL drivers via STM32CubeMX and   STM32CubeIDE.
+Massive Open Online Course (MOOC) to help you understand peripheral configuration and C programming using HAL drivers via STM32CubeMX and STM32CubeIDE.
 
 [Artificial Intelligence on STM32](https://www.youtube.com/playlist?list=PLnMKNibPkDnG9IC5Nl9vJg1CKMAO1kODW)
 Description:
 An advanced (optional) module exploring how to run machine learning models on STM32 MCUs using STM32Cube.AI and TinyML techniques.
+
   
   **Note**
  Every STM32 NucleoBoard variant has its own Datasheet, Reference Manual and Schematic manual so please ensure to download these pdfs 
