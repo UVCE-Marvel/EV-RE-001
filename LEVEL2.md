@@ -4,8 +4,6 @@ Design a custom RC car chassis in CAD software with weight distribution suitable
 **Outcome**
 
 - Designed and modeled a functional RC chassis suitable for 3D printing.
-
-
 - Applied basic principles of mechanical design and weight balancing.
 
 
@@ -15,14 +13,11 @@ Implement SPI communication between Arduino and a peripheral device like an SD c
 **Outcome**
 
 - Learn the master-slave data exchange using SPI.
-
-
 - Implemented SPI for sensor or peripheral communication.
 
 **Resource**
 
 - Notes:
-  
   1. https://www.circuitbasics.com/basics-of-the-spi-communication-protocol/
   2. https://learn.sparkfun.com/tutorials/serial-peripheral-interface-spi/all 
   3. https://www.ti.com/lit/an/slva704/slva704.pdf?ts=1667176595632&ref_url=https%253A%252F%252Fwww.google.com%252F 
@@ -34,7 +29,6 @@ Use Arduino or STM32 to interface multiple I2C devices like an LCD, sensor (e.g.
 **Outcome**
 
 - Understood multi-device communication via I2C.
-
 - Successfully controlled and read data from I2C-based modules.
   
 [Resource](https://circuitdigest.com/microcontroller-projects/arduino-i2c-tutorial-communication-between-two-arduino) 
@@ -48,7 +42,6 @@ Assemble a 3-cell Li-ion battery pack to deliver 12V with a 3S 20A 12V BMS modul
 **Outcome**
 
 - Built a functional Li-ion battery pack.
-
 - Gained hands-on experience with battery wiring and BMS integration.
   
 **Resource**
@@ -58,10 +51,7 @@ Assemble a 3-cell Li-ion battery pack to deliver 12V with a 3S 20A 12V BMS modul
 Integrate at least 3 sensors (like IR, ultrasonic, DHT11) into the RC car chassis to gather real-time data. Use Arduino to process and respond to the data. Demonstrates full system integration and real-world automation.
 
 Outcome:
-
 - Created an application-based smart RC car using multiple sensors.
-
-
 - Combined mechanical, electrical, and programming skills effectively.
 
 
@@ -71,7 +61,6 @@ Build a system to balance voltages between 2 or more Li-ion cells using Arduino,
 **Outcome**
 
 - Implemented active balancing of Li-ion cells.
-
 - Understood the significance and working of active vs passive balancing.
   
 **Resource**
@@ -89,7 +78,6 @@ Demonstrate regenerative braking using a 9V DC motor connected to a circuit with
 **Outcome**
 
 - Demonstrated energy recovery during braking.
-
 - Understood core principle of regenerative braking in EVs.
   
 **Resource**
@@ -103,7 +91,6 @@ Connect an STM32 board to an L298N driver module and control a DC motor's speed 
 **Outcome**
 
 - Controlled DC motor speed and direction using STM32.
-
 - Gained understanding of interfacing motor drivers with microcontrollers.
   
 **Resource**
@@ -117,7 +104,6 @@ Use STM32 to control a servo motor by generating PWM signals through internal ti
 **Outcome**
 
 - Controlled servo positioning using STM32-generated PWM.
-
 - Understood timer and GPIO configurations for servo control.
   
 **Reource**
@@ -131,7 +117,6 @@ Configure the STM32’s internal ADC to read analog voltages (e.g., from a poten
 **Outcome**
 
 - Successfully read and processed analog data via ADC.
-
 - Understood ADC setup, resolution, and data acquisition methods.
   
 **Resource**
