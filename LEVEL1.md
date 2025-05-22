@@ -41,6 +41,7 @@ Use the LM35 analog temperature sensor to monitor ambient or localized heat (e.g
 
 - [Temperature detection using LM35](https://lastminuteengineers.com/lm35-temperature-sensor-arduino-tutorial/)
 - Temperature and humidity using DHT11:
+  
   - https://www.engineersgarage.com/articles-arduino-dht11-humidity-temperature-sensor-interfacing/
   - https://www.engineersgarage.com/articles-arduino-dht11-humidity-temperature-sensor-interfacing/ 
 
@@ -118,6 +119,7 @@ Learn the basics of Simulink in MATLAB by designing a simple RLC or transistor-b
 
 - Introduction to STM32: [STM32StepByStep:STM32MCU basics - stm32mcu](https://wiki.st.com/stm32mcu/wiki/STM32StepByStep:STM32MCU_basics#:~:text=STMicroelectronics%20is%20manufacturing%20the%20STM32%20MCUs%20which%20are,cores%2C%20optimized%20for%20cost%20and%20power%20sensitive%20MCUs.)
 Software Installations Required: [STM32StepByStep:Step1 Tools installation - stm32mcu](https://wiki.st.com/stm32mcu/wiki/STM32StepByStep:Step1_Tools_installation)
+
   - STM32CubeMX 
 Link: [STM32CubeMX - STM32Cube initialization code generator - STMicroelectronics ](https://www.st.com/en/development-tools/stm32cubemx.html)
 Description:
@@ -132,6 +134,7 @@ STM32CubeIDE is the official free IDE from ST for coding, compiling, and debuggi
 [STM32CubeProg - STM32CubeProgrammer software for all STM32 - STMicroelectronics](https://www.st.com/en/development-tools/stm32cubeprog.html)
 Description:
 STM32CubeProgrammer is used to flash firmware onto STM32 boards through ST-Link, USB, or UART. This task covers installing the tool and performing basic memory read/write operations.
+
 - Introduction to STM32 MCU, STM32CubeIDE and STM32CubeMX
 [Introduction to STM32: Back to the Basics](https://www.youtube.com/playlist?list=PLnMKNibPkDnFa5bR8U78UXs6b5bzKXxq-)
 Description:
@@ -158,15 +161,19 @@ Covers low-level register-based programming, bypassing the HAL library. You’ll
 - [STM32 EcoSystem (Development Environment) Setup – DeepBlue](https://deepbluembedded.com/stm32-ecosystem-development-environment-setup/) 
   Description:
   Covers how to set up STM32CubeMX and STM32CubeIDE, update firmware packages, and manage libraries for your board in a systematic way.
+  
 - [STM32 HAL Library Tutorial – HAL Library Examples - DeepBlue](https://deepbluembedded.com/stm32-hal-library-tutorial-examples/)
   Description:
   Provides structured tutorials on using STM32's Hardware Abstraction Layer (HAL) APIs to develop applications more easily and portably.
+  
 - [Getting Started With STM32 ARM Cortex MCUs – DeepBlue](https://deepbluembedded.com/getting-started-with-stm32-arm-cortex-mcus/)
   Description:
   This article briefly discusses some STM32 MCUs and the ARM Cortex architecture generally used in them.
+  
 - [MOOC - STM32CubeMX and STM32Cube HAL basics - YouTube](https://www.youtube.com/playlist?list=PLnMKNibPkDnGtuIl5v0CvC81Am7SKpj02)
   Description:
   Massive Open Online Course (MOOC) to help you understand peripheral configuration and C programming using HAL drivers via STM32CubeMX and   STM32CubeIDE.
+  
 - [Artificial Intelligence on STM32](https://www.youtube.com/playlist?list=PLnMKNibPkDnG9IC5Nl9vJg1CKMAO1kODW)
   Description:
   An advanced (optional) module exploring how to run machine learning models on STM32 MCUs using STM32Cube.AI and TinyML techniques.
