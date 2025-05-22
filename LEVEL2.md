@@ -1,47 +1,142 @@
-## TASK 1- Build Chassis  
+## Task 1 - Build Chassis
+Design a custom RC car chassis in CAD software with weight distribution suitable for stability and sensor mounting. Ensure it is compatible with MARVEL’s 3D printer specifications and modular for component integration.
 
-Use any software of your comfort to design a complete chassis of an RC car with dimensions compatible to be printed on the 3D printer available in MARVEL. The chassis should be have a calculated weight distribution depending on the application.
+**Outcome**
 
-## Task 2 - SPI Communication  
+- Designed and modeled a functional RC chassis suitable for 3D printing.
 
-Use any software of your comfort to design a complete chassis of an  RC car with dimensions compatible  to be printed on the 3D printer available in MARVEL. The chassis should be have a calculated weight distribution depending on the application  
-[Understand](https://www.circuitbasics.com/basics-of-the-spi-communication-protocol/)  
-[Understand](https://learn.sparkfun.com/tutorials/serial-peripheral-interface-spi/all)  
-[Task](https://microcontrollerslab.com/spi-communication-between-two-arduino-boards/)  
-[Learn](https://www.ti.com/lit/an/slva704/slva704.pdf?ts=1667176595632&ref_url=https%253A%252F%252Fwww.google.com%252F)
 
-## Task 3 - I2C Control   
+- Applied basic principles of mechanical design and weight balancing.
 
-I2C combines the best features of SPI and UARTs. With I2C, you can connect multiple slaves to a single master (like SPI) and you can have multiple masters controlling single, or multiple slaves. This is really useful when you want to have more than one microcontroller logging data to a single memory card or displaying text to a single LCD.  
-[Notes](https://www.circuitbasics.com/basics-of-the-i2c-communication-protocol/)  
-[Notes](https://www.ti.com/lit/an/slva704/slva704.pdf?ts=1667176595632&amp;ref_url=https%253A%252F%252Fwww.google.com%252F)  
-[Task](https://circuitdigest.com/microcontroller-projects/arduino-i2c-tutorial-communication-between-two-arduino)
 
-## Task 4 - BMS  
+## Task 2 - SPI Communication (Embedded)
+Implement SPI communication between Arduino and a peripheral device like an SD card module, OLED, or another microcontroller. Learn about MOSI, MISO, SCK, and SS signals and how full-duplex data transfer works.
 
-Battery management system (BMS) is technology dedicated to the oversight of a battery pack, which is an assembly of battery cells, electrically organized in a row x column matrix configuration to enable delivery of targeted range of voltage and current for a duration of time against expected load scenarios.  
-[Notes](https://www.synopsys.com/glossary/what-is-a-battery-management-system.html)  
-[Task](https://www.youtube.com/watch?v=OBlmPQVaO4E)
+**Outcome**
 
-## Task 5 - Speed Control of BLDC  
+- Learn the master-slave data exchange using SPI.
 
-BLDC is a popular motor used in EV, learn their speed control .Brushless DC motors (BLDC) feature high efficiency and excellent controllability, and are widely used in many applications. The BLDC motor has power-saving advantages relative to other motor types. Observe its working using the CRO 
-at Marvel  
-[Task](https://howtomechatronics.com/tutorials/arduino/arduino-brushless-motor-control-tutorial-esc-bldc/) 
- 
-[Understand the speed control using pi controller](https://www.youtube.com/watch?v=8-5Jb6QSS0Q)  
 
-## Task 6 - Make an Atmega32 - Atmega8 Master-Slave SPI Communication  
+- Implemented SPI for sensor or peripheral communication.
 
-The SPI is a very simply Synchronous Peripheral Interfacing(allows devices to send and receive data at the same time) is full duplex communication. This protocol is developed by Motorola. With this interface, one Master device which initiates and controls the communication, and one or more slaves who receive and transmit to the Master.  
-[Task](https://www.instructables.com/Atmega32-Atmega8-Master-Slave-SPI-Communication/)  
+**Resource**
 
-## Task 7 - Make a Lithium-ion Battery Pack  
+- Notes:
+  
+  1. https://www.circuitbasics.com/basics-of-the-spi-communication-protocol/
+  2. https://learn.sparkfun.com/tutorials/serial-peripheral-interface-spi/all 
+  3. https://www.ti.com/lit/an/slva704/slva704.pdf?ts=1667176595632&ref_url=https%253A%252F%252Fwww.google.com%252F 
+- https://microcontrollerslab.com/spi-communication-between-two-arduino-boards/ 
 
-Make a lithium ion battery pack with 12 cells to make a BMS supply of 44.4V, 4.8Ah, 50A cont. discharge rate (BMS limiting at 60A)  
+## Task 3 - I2C Control (Embedded)
+Use Arduino or STM32 to interface multiple I2C devices like an LCD, sensor (e.g., MPU6050), and EEPROM on the same bus. Learn about address management and master-slave data protocols.
 
-## Task 8 - Working with multiple sensors  
-Use the chasis from the first task to make a fully equipped RC control car. Use any 3 sensors of your choice to provide the respective data from the sensors. Use up all of the above task to have an application in this car.
+**Outcome**
+
+- Understood multi-device communication via I2C.
+
+- Successfully controlled and read data from I2C-based modules.
+  
+[Resource](https://circuitdigest.com/microcontroller-projects/arduino-i2c-tutorial-communication-between-two-arduino) 
+
+For notes refer to the previous task
+
+
+## Task 4 - Make a Lithium-ion Battery Pack (Power Electronics)
+Assemble a 3-cell Li-ion battery pack to deliver 12V with a 3S 20A 12V BMS module.
+
+**Outcome**
+
+- Built a functional Li-ion battery pack.
+
+- Gained hands-on experience with battery wiring and BMS integration.
+  
+**Resource**
+- https://youtu.be/K1IGCC_aeio
+  
+## Task 5 - Working with Multiple Sensors (Embedded - 3 star)
+Integrate at least 3 sensors (like IR, ultrasonic, DHT11) into the RC car chassis to gather real-time data. Use Arduino to process and respond to the data. Demonstrates full system integration and real-world automation.
+
+Outcome:
+
+- Created an application-based smart RC car using multiple sensors.
+
+
+- Combined mechanical, electrical, and programming skills effectively.
+
+
+## Task 6 - Smart Active Battery Balancer (Power Electronics - 3 star)
+Build a system to balance voltages between 2 or more Li-ion cells using Arduino, IRF830 MOSFETs, and CL100 transistors. Transfer excess charge from higher-voltage cell to lower-voltage cell and display voltages via serial.
+
+**Outcome**
+
+- Implemented active balancing of Li-ion cells.
+
+- Understood the significance and working of active vs passive balancing.
+  
+**Resource**
+
+[Notes](https://www.renogy.com/academy/batteries/Lithium-Battery-Balancing#:~:text=When%20charging%2C%20the%20highest%20charged,charge%20levels%20across%20all%20cells)
+
+[Notes](https://cellsaviors.com/blog/active-passive-balancing?utm_source=chatgpt.com) 
+
+[Notes](https://320volt.com/en/balancing-li-ion-li-polymer-batteries-battery-balancing-circuit/) 
+
+
+## Task 7 - Regenerative Braking System Demo (Power Electronics - 3 star)
+Demonstrate regenerative braking using a 9V DC motor connected to a circuit with LED, transistor, and pushbutton. When the motor is stopped via braking, the back EMF lights up the LED, simulating energy recovery in EVs.
+      
+**Outcome**
+
+- Demonstrated energy recovery during braking.
+
+- Understood core principle of regenerative braking in EVs.
+  
+**Resource**
+
+[Notes](https://testbook.com/mechanical-engineering/regenerative-braking-system)  
+
+
+## Task 8 - Interfacing STM32 Nucleo with L298N Motor Driver (Embedded)
+Connect an STM32 board to an L298N driver module and control a DC motor's speed and direction using PWM and logic pins. Learn motor driver interfacing and STM32 timer control.
+
+**Outcome**
+
+- Controlled DC motor speed and direction using STM32.
+
+- Gained understanding of interfacing motor drivers with microcontrollers.
+  
+**Resource**
+
+[116.STM32CubeIDE L298N Motor. PWM with STM32 F446RE Nucleo](https://youtu.be/26-3AUVJldA?si=C-fTCPhmV-Am3TXT)
+
+
+## Task 9 - Interfacing STM32 Nucleo with Servo Motor (Embedded)
+Use STM32 to control a servo motor by generating PWM signals through internal timers. Adjust pulse width to change the angle of the servo and observe precision motion control.
+
+**Outcome**
+
+- Controlled servo positioning using STM32-generated PWM.
+
+- Understood timer and GPIO configurations for servo control.
+  
+**Reource**
+
+[102. STM32CubeIDE Servo Motor. PWM with STM32F446RE Nucleo](https://youtu.be/HN9sKhKxy7M?si=PWNLnY7xKlvPANHh)
+
+
+## Task 10 - Configuring ADC in STM32 Nucleo Board (Embedded - 3star)
+Configure the STM32’s internal ADC to read analog voltages (e.g., from a potentiometer or sensor). Learn resolution, reference voltage, sampling time, and read techniques via polling or interrupt.
+
+**Outcome**
+
+- Successfully read and processed analog data via ADC.
+
+- Understood ADC setup, resolution, and data acquisition methods.
+  
+**Resource**
+
+[STM32 ADC #1. How to configure ADC || Single Channel Polling Mode](https://youtu.be/MDnWdi4BCAo?si=WdMwDWYDIr_Hgpe1)
 
 
 
