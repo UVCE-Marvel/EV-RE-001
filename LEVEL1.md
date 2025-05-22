@@ -41,7 +41,6 @@ Use the LM35 analog temperature sensor to monitor ambient or localized heat (e.g
 
 - [Temperature detection using LM35](https://lastminuteengineers.com/lm35-temperature-sensor-arduino-tutorial/)
 - Temperature and humidity using DHT11:
-  
   1. https://www.engineersgarage.com/articles-arduino-dht11-humidity-temperature-sensor-interfacing/
   2. https://www.engineersgarage.com/articles-arduino-dht11-humidity-temperature-sensor-interfacing/ 
 
@@ -117,39 +116,45 @@ Learn the basics of Simulink in MATLAB by designing a simple RLC or transistor-b
   
 **Reference**
 
-- Introduction to STM32: [STM32StepByStep:STM32MCU basics - stm32mcu](https://wiki.st.com/stm32mcu/wiki/STM32StepByStep:STM32MCU_basics#:~:text=STMicroelectronics%20is%20manufacturing%20the%20STM32%20MCUs%20which%20are,cores%2C%20optimized%20for%20cost%20and%20power%20sensitive%20MCUs.)
+Introduction to STM32: [STM32StepByStep:STM32MCU basics - stm32mcu](https://wiki.st.com/stm32mcu/wiki/STM32StepByStep:STM32MCU_basics#:~:text=STMicroelectronics%20is%20manufacturing%20the%20STM32%20MCUs%20which%20are,cores%2C%20optimized%20for%20cost%20and%20power%20sensitive%20MCUs.)
 Software Installations Required: [STM32StepByStep:Step1 Tools installation - stm32mcu](https://wiki.st.com/stm32mcu/wiki/STM32StepByStep:Step1_Tools_installation)
-  1. STM32CubeMX 
+
+- STM32CubeMX 
 Link: [STM32CubeMX - STM32Cube initialization code generator - STMicroelectronics ](https://www.st.com/en/development-tools/stm32cubemx.html)
 Description:
 STM32CubeMX is a graphical tool for configuring STM32 peripherals and generating initialization code. You’ll learn how to select your MCU, configure clocks, GPIOs, and peripherals like ADC, UART, PWM, etc.
-  2. STM32CubeIDE or Keil uVision IDE 
+- STM32CubeIDE or Keil uVision IDE 
 Link: STM32CubeIDE - [Integrated Development Environment for STM32 - STMicroelectronics](https://www.st.com/en/development-tools/stm32cubeide.html)
 Keil uVision software and installation tutorial for stm32 development
 [MDK-ARM Version 5.42a Evaluation Software Request Keil uVision Install](https://www.keil.com/demo/eval/arm.htm)
 Description:
 STM32CubeIDE is the official free IDE from ST for coding, compiling, and debugging STM32 applications.Keil uVision is an alternative IDE known for high performance and advanced debugging (limited in the free version).
-  3. STM32CubeProgrammer
+- STM32CubeProgrammer
 [STM32CubeProg - STM32CubeProgrammer software for all STM32 - STMicroelectronics](https://www.st.com/en/development-tools/stm32cubeprog.html)
 Description:
 STM32CubeProgrammer is used to flash firmware onto STM32 boards through ST-Link, USB, or UART. This task covers installing the tool and performing basic memory read/write operations.
-- Introduction to STM32 MCU, STM32CubeIDE and STM32CubeMX
+
+Introduction to STM32 MCU, STM32CubeIDE and STM32CubeMX
 [Introduction to STM32: Back to the Basics](https://www.youtube.com/playlist?list=PLnMKNibPkDnFa5bR8U78UXs6b5bzKXxq-)
 Description:
 You’ll learn about STM32 development workflow: selecting a microcontroller, configuring it using STM32CubeMX, writing firmware in STM32CubeIDE, and debugging with ST-Link. This section ties the entire toolchain together.
-- Microcontroller Architecture and STM32 Basics
+
+Microcontroller Architecture and STM32 Basics
 [Hardware and Software used in this series Part - 1 | STM32 | STM32 CUBE MX | KEIL IDE | T - 1](https://www.youtube.com/playlist?list=PL_zvrXFdKgZrLsAkLo_1qPeW7cPOCyEiK)
 Description:
 Explores microcontroller internals—registers, buses, timers, interrupts, memory mapping—and introduces the STM32F4 architecture. You’ll also get familiar with commonly used development hardware.
-- Step-by-step Beginner tutorial
+
+Step-by-step Beginner tutorial
 https://youtu.be/dnfuNT1dPiM?si=AWWPWCj4IhBKq_rs
 Description:
 Teaches about starting a new project in STM32 CubeIDE, STM32 chip configuration(ioc files), Clock configuration, project files, controlling GPIO in STM32, HAL_Delay function, ST-LINK upgrade and STM32 debugger / programmer, building and running your code.
-- STM32F446RE Board architecture
+
+STM32F446RE Board architecture
 https://youtu.be/7h4Hv-XK0eM?si=sVv8VpOYjYfym9Re
 Description:
 Detailed hardware overview of the STM32F446RE Nucleo board, including pinout, onboard peripherals (ST-Link, LEDs, buttons), memory layout, and how to interface it with external modules.
-- STM32 Register Programming
+
+STM32 Register Programming
 [STM32F4 REGISTER PROGRAMMING - YouTube](https://www.youtube.com/playlist?list=PLfIJKC1ud8ghc4eFhI84z_3p3Ap2MCMV-)
 Description:
 Covers low-level register-based programming, bypassing the HAL library. You’ll learn how to manipulate peripheral registers directly for GPIOs, timers, and ADC, which gives better performance and deeper understanding.
@@ -159,19 +164,15 @@ Covers low-level register-based programming, bypassing the HAL library. You’ll
 - [STM32 EcoSystem (Development Environment) Setup – DeepBlue](https://deepbluembedded.com/stm32-ecosystem-development-environment-setup/) 
   Description:
   Covers how to set up STM32CubeMX and STM32CubeIDE, update firmware packages, and manage libraries for your board in a systematic way.
-  
 - [STM32 HAL Library Tutorial – HAL Library Examples - DeepBlue](https://deepbluembedded.com/stm32-hal-library-tutorial-examples/)
   Description:
   Provides structured tutorials on using STM32's Hardware Abstraction Layer (HAL) APIs to develop applications more easily and portably.
-  
 - [Getting Started With STM32 ARM Cortex MCUs – DeepBlue](https://deepbluembedded.com/getting-started-with-stm32-arm-cortex-mcus/)
   Description:
   This article briefly discusses some STM32 MCUs and the ARM Cortex architecture generally used in them.
-  
 - [MOOC - STM32CubeMX and STM32Cube HAL basics - YouTube](https://www.youtube.com/playlist?list=PLnMKNibPkDnGtuIl5v0CvC81Am7SKpj02)
   Description:
   Massive Open Online Course (MOOC) to help you understand peripheral configuration and C programming using HAL drivers via STM32CubeMX and   STM32CubeIDE.
-  
 - [Artificial Intelligence on STM32](https://www.youtube.com/playlist?list=PLnMKNibPkDnG9IC5Nl9vJg1CKMAO1kODW)
   Description:
   An advanced (optional) module exploring how to run machine learning models on STM32 MCUs using STM32Cube.AI and TinyML techniques.
