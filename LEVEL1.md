@@ -42,8 +42,8 @@ Use the LM35 analog temperature sensor to monitor ambient or localized heat (e.g
 - [Temperature detection using LM35](https://lastminuteengineers.com/lm35-temperature-sensor-arduino-tutorial/)
 - Temperature and humidity using DHT11:
   
-  - https://www.engineersgarage.com/articles-arduino-dht11-humidity-temperature-sensor-interfacing/
-  - https://www.engineersgarage.com/articles-arduino-dht11-humidity-temperature-sensor-interfacing/ 
+  1. https://www.engineersgarage.com/articles-arduino-dht11-humidity-temperature-sensor-interfacing/
+  2. https://www.engineersgarage.com/articles-arduino-dht11-humidity-temperature-sensor-interfacing/ 
 
 
 
@@ -119,22 +119,20 @@ Learn the basics of Simulink in MATLAB by designing a simple RLC or transistor-b
 
 - Introduction to STM32: [STM32StepByStep:STM32MCU basics - stm32mcu](https://wiki.st.com/stm32mcu/wiki/STM32StepByStep:STM32MCU_basics#:~:text=STMicroelectronics%20is%20manufacturing%20the%20STM32%20MCUs%20which%20are,cores%2C%20optimized%20for%20cost%20and%20power%20sensitive%20MCUs.)
 Software Installations Required: [STM32StepByStep:Step1 Tools installation - stm32mcu](https://wiki.st.com/stm32mcu/wiki/STM32StepByStep:Step1_Tools_installation)
-
-  - STM32CubeMX 
+  1. STM32CubeMX 
 Link: [STM32CubeMX - STM32Cube initialization code generator - STMicroelectronics ](https://www.st.com/en/development-tools/stm32cubemx.html)
 Description:
 STM32CubeMX is a graphical tool for configuring STM32 peripherals and generating initialization code. You’ll learn how to select your MCU, configure clocks, GPIOs, and peripherals like ADC, UART, PWM, etc.
-  - STM32CubeIDE or Keil uVision IDE 
+  2. STM32CubeIDE or Keil uVision IDE 
 Link: STM32CubeIDE - [Integrated Development Environment for STM32 - STMicroelectronics](https://www.st.com/en/development-tools/stm32cubeide.html)
 Keil uVision software and installation tutorial for stm32 development
 [MDK-ARM Version 5.42a Evaluation Software Request Keil uVision Install](https://www.keil.com/demo/eval/arm.htm)
 Description:
 STM32CubeIDE is the official free IDE from ST for coding, compiling, and debugging STM32 applications.Keil uVision is an alternative IDE known for high performance and advanced debugging (limited in the free version).
-  - STM32CubeProgrammer
+  3. STM32CubeProgrammer
 [STM32CubeProg - STM32CubeProgrammer software for all STM32 - STMicroelectronics](https://www.st.com/en/development-tools/stm32cubeprog.html)
 Description:
 STM32CubeProgrammer is used to flash firmware onto STM32 boards through ST-Link, USB, or UART. This task covers installing the tool and performing basic memory read/write operations.
-
 - Introduction to STM32 MCU, STM32CubeIDE and STM32CubeMX
 [Introduction to STM32: Back to the Basics](https://www.youtube.com/playlist?list=PLnMKNibPkDnFa5bR8U78UXs6b5bzKXxq-)
 Description:
@@ -177,7 +175,7 @@ Covers low-level register-based programming, bypassing the HAL library. You’ll
 - [Artificial Intelligence on STM32](https://www.youtube.com/playlist?list=PLnMKNibPkDnG9IC5Nl9vJg1CKMAO1kODW)
   Description:
   An advanced (optional) module exploring how to run machine learning models on STM32 MCUs using STM32Cube.AI and TinyML techniques.
-
+  
   **Note**: Every STM32 NucleoBoard variant has its own Datasheet, Reference Manual and Schematic manual so please ensure to download these       pdfs correctly depending on the part number of the NucleoBoard you are using.
 
 
