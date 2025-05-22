@@ -5,8 +5,9 @@ Note: EV-RE Syllabus is divided into two categories - (i) Embedded Systems (ii) 
 Design and simulate a 555 timer-based astable multivibrator using LTspice to observe frequency and pulse width behavior. Use KiCad to create a schematic of an LED blinking circuit and design a PCB layout with proper footprints and routing. This task introduces simulation and PCB design fundamentals.
 
 **Outcome**
-- Understand SPICE-based circuit simulation and EDA workflows.
-- Generate schematic, layout, and simulation results.
+
+-  Understand SPICE-based circuit simulation and EDA workflows.
+-  Generate schematic, layout, and simulation results.
 
 **Resources**
 
@@ -20,6 +21,7 @@ Design and simulate a 555 timer-based astable multivibrator using LTspice to obs
 Build an obstacle-avoiding robot using an HC-SR04 ultrasonic sensor, Arduino, and a motor driver. The vehicle should detect obstacles and perform a point turn by rotating in place to change direction. It combines sensor data processing with differential motor control.
 
 **Outcome**
+
 - Vehicle can detect and avoid obstacles.
 - Performs point turn autonomously when close to an object.
 
@@ -31,10 +33,12 @@ Build an obstacle-avoiding robot using an HC-SR04 ultrasonic sensor, Arduino, an
 Use the LM35 analog temperature sensor to monitor ambient or localized heat (e.g., near a soldering iron). When temperature exceeds a threshold, turn on an LED using a BJT as a switch. In parallel, use the DHT11 digital sensor to read and display temperature and humidity on a 16x2 LCD.
        
 **Outcome**
+
 - Understand analog and digital sensor interfacing.
 - Implement threshold-based switching and data display.
 
 **Resources**
+
 - [Temperature detection using LM35](https://lastminuteengineers.com/lm35-temperature-sensor-arduino-tutorial/)
 - Temperature and humidity using DHT11:
 
@@ -49,6 +53,7 @@ Use the LM35 analog temperature sensor to monitor ambient or localized heat (e.g
 Connect a BLDC motor with a Hall effect sensor to measure its speed. The output of the Hall sensor is read by Arduino to calculate RPM and display it via the Serial Monitor. This task demonstrates motor speed sensing and signal interpretation.
  
 **Outcome**
+
 - Gain insight into motor speed sensing and the magnetic properties of the Hall effect sensor.
 
 [Resources](https://makersportal.com/blog/2018/10/3/arduino-tachometer-using-a-hall-effect-sensor-to-measure-rotations-from-a-fan)
@@ -61,6 +66,7 @@ Connect a BLDC motor with a Hall effect sensor to measure its speed. The output 
 Monitor the voltage of a Li-ion battery using analog input on Arduino. Use a MOSFET as a switch to disconnect the load when voltage drops below a safe threshold. Ensures safe battery operation and demonstrates basic battery protection logic.
 
 **Outcome**
+
 - Demonstrate battery protection via voltage monitoring and switching.
 
 [Resource](https://www.instructables.com/Arduino-cell-capacity-meter/) 
@@ -70,9 +76,11 @@ Monitor the voltage of a Li-ion battery using analog input on Arduino. Use a MOS
 Charge the Li-on battery using solar panels and a solar charging module.
 
 **Outcome**
+
 - Understand practical implementation of solar-based charging.
 
 **Resource**
+
 - https://www.electronicshub.org/solar-battery-charger-for-18650/
 - https://www.youtube.com/watch?v=kEttqWJrdww
 
@@ -82,6 +90,7 @@ Charge the Li-on battery using solar panels and a solar charging module.
 Use LDRs and a servo motor controlled by Arduino to orient a solar panel toward the strongest light source. The system maximizes solar energy collection using dual LDR comparison logic and basic actuator control.
 
 **Outcome**
+
 - Achieve energy maximization through sun-tracking mechanisms.
 
 [Resource](https://projecthub.arduino.cc/Aboubakr_Elhammoumi/arduino-solar-tracker-77347b) 
@@ -91,9 +100,11 @@ Use LDRs and a servo motor controlled by Arduino to orient a solar panel toward 
 Learn the basics of Simulink in MATLAB by designing a simple RLC or transistor-based circuit. Simulate voltage, current, and frequency responses over time using virtual probes and scopes.
 
 **Outcome**
+
 - Understand MATLAB-Simulink for circuit modeling and waveform analysis.
 
 **Resource** 
+
 - https://youtu.be/vxzR3W2BcRk 
 - https://youtu.be/lSbEVgCpJCc
 
@@ -107,48 +118,48 @@ Learn the basics of Simulink in MATLAB by designing a simple RLC or transistor-b
   
 **Reference**
 
-1. Introduction to STM32: [STM32StepByStep:STM32MCU basics - stm32mcu](https://wiki.st.com/stm32mcu/wiki/STM32StepByStep:STM32MCU_basics#:~:text=STMicroelectronics%20is%20manufacturing%20the%20STM32%20MCUs%20which%20are,cores%2C%20optimized%20for%20cost%20and%20power%20sensitive%20MCUs.)
+- Introduction to STM32: [STM32StepByStep:STM32MCU basics - stm32mcu](https://wiki.st.com/stm32mcu/wiki/STM32StepByStep:STM32MCU_basics#:~:text=STMicroelectronics%20is%20manufacturing%20the%20STM32%20MCUs%20which%20are,cores%2C%20optimized%20for%20cost%20and%20power%20sensitive%20MCUs.)
 Software Installations Required: 
 [STM32StepByStep:Step1 Tools installation - stm32mcu](https://wiki.st.com/stm32mcu/wiki/STM32StepByStep:Step1_Tools_installation)
 
-- STM32CubeMX 
+  - STM32CubeMX 
 Link: [STM32CubeMX - STM32Cube initialization code generator - STMicroelectronics ](https://www.st.com/en/development-tools/stm32cubemx.html)
 Description:
 STM32CubeMX is a graphical tool for configuring STM32 peripherals and generating initialization code. You’ll learn how to select your MCU, configure clocks, GPIOs, and peripherals like ADC, UART, PWM, etc.
 
-- STM32CubeIDE or Keil uVision IDE 
+  - STM32CubeIDE or Keil uVision IDE 
 Link: STM32CubeIDE - [Integrated Development Environment for STM32 - STMicroelectronics](https://www.st.com/en/development-tools/stm32cubeide.html)
 Keil uVision software and installation tutorial for stm32 development
 [MDK-ARM Version 5.42a Evaluation Software Request Keil uVision Install](https://www.keil.com/demo/eval/arm.htm)
 Description:
 STM32CubeIDE is the official free IDE from ST for coding, compiling, and debugging STM32 applications.Keil uVision is an alternative IDE known for high performance and advanced debugging (limited in the free version).
  
-- STM32CubeProgrammer
+  - STM32CubeProgrammer
 [STM32CubeProg - STM32CubeProgrammer software for all STM32 - STMicroelectronics](https://www.st.com/en/development-tools/stm32cubeprog.html)
 Description:
 STM32CubeProgrammer is used to flash firmware onto STM32 boards through ST-Link, USB, or UART. This task covers installing the tool and performing basic memory read/write operations.
 
-2. Introduction to STM32 MCU, STM32CubeIDE and STM32CubeMX
+- Introduction to STM32 MCU, STM32CubeIDE and STM32CubeMX
 [Introduction to STM32: Back to the Basics](https://www.youtube.com/playlist?list=PLnMKNibPkDnFa5bR8U78UXs6b5bzKXxq-)
 Description:
 You’ll learn about STM32 development workflow: selecting a microcontroller, configuring it using STM32CubeMX, writing firmware in STM32CubeIDE, and debugging with ST-Link. This section ties the entire toolchain together.
 
-3. Microcontroller Architecture and STM32 Basics
+- Microcontroller Architecture and STM32 Basics
 [Hardware and Software used in this series Part - 1 | STM32 | STM32 CUBE MX | KEIL IDE | T - 1](https://www.youtube.com/playlist?list=PL_zvrXFdKgZrLsAkLo_1qPeW7cPOCyEiK)
 Description:
 Explores microcontroller internals—registers, buses, timers, interrupts, memory mapping—and introduces the STM32F4 architecture. You’ll also get familiar with commonly used development hardware.
 
-4. Step-by-step Beginner tutorial
+- Step-by-step Beginner tutorial
 https://youtu.be/dnfuNT1dPiM?si=AWWPWCj4IhBKq_rs
 Description:
 Teaches about starting a new project in STM32 CubeIDE, STM32 chip configuration(ioc files), Clock configuration, project files, controlling GPIO in STM32, HAL_Delay function, ST-LINK upgrade and STM32 debugger / programmer, building and running your code.
 
-5. STM32F446RE Board architecture
+- STM32F446RE Board architecture
 https://youtu.be/7h4Hv-XK0eM?si=sVv8VpOYjYfym9Re
 Description:
 Detailed hardware overview of the STM32F446RE Nucleo board, including pinout, onboard peripherals (ST-Link, LEDs, buttons), memory layout, and how to interface it with external modules.
 
-6. STM32 Register Programming
+- STM32 Register Programming
 [STM32F4 REGISTER PROGRAMMING - YouTube](https://www.youtube.com/playlist?list=PLfIJKC1ud8ghc4eFhI84z_3p3Ap2MCMV-)
 Description:
 Covers low-level register-based programming, bypassing the HAL library. You’ll learn how to manipulate peripheral registers directly for GPIOs, timers, and ADC, which gives better performance and deeper understanding.
@@ -179,6 +190,7 @@ Optional/Additional Resources:
  headlamp system for EVs. Test using a mobile flashlight for light detection.
  
  **Outcome**
+ 
 - Auto night lamp system for EVs demonstrated with mobile flashlight simulation.
 
 **Reference**
