@@ -106,7 +106,7 @@ Use STM32 to control a servo motor by generating PWM signals through internal ti
 - Controlled servo positioning using STM32-generated PWM.
 - Understood timer and GPIO configurations for servo control.
   
-**Reource**
+**Resource**
 
 [102. STM32CubeIDE Servo Motor. PWM with STM32F446RE Nucleo](https://youtu.be/HN9sKhKxy7M?si=PWNLnY7xKlvPANHh)
 
