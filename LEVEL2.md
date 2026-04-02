@@ -123,9 +123,20 @@ Configure the STM32’s internal ADC to read analog voltages (e.g., from a poten
 
 [STM32 ADC #1. How to configure ADC || Single Channel Polling Mode](https://youtu.be/MDnWdi4BCAo?si=WdMwDWYDIr_Hgpe1)
 
+## Task 9 - EV Battery Heat Management Simulation 
 
+Create a simple simulation using MATLAB to model the heat generation and dissipation in an electric vehicle battery during charging and discharging cycles. This project can help understand the thermal behaviour of EV batteries. 
 
+   Resource Links:  
+   [Electric Vehicle Thermal Management
+   MATLAB & Simulink  (mathworks.com) ](https://www.mathworks.com/help/hydro/ug/sscfluids_ev_thermal_management.html)
+   
+   [https://youtu.be/dpuhgwdN0s8 
+](https://youtu.be/dpuhgwdN0s8)
 
+## Task 10 - Motor Control with STM32
 
+Control a DC Motor’s Speed using STM32 Microcontroller.
 
+Resource Links: https://www.engineersgarage.com/dc-motor-control-with-stm32-microcontroller/
 
